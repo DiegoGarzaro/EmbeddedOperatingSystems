@@ -38,7 +38,7 @@ int main(int argc, char *argv[]){
     
     result = run_process(num, num_process);
 
-    //printf("\nThe factorial of %d is: %Lf\n", num, result);
+    printf("\nThe factorial of %d is: %Lf\n", num, result);
 
     // Stop measuring time and calculate the elapsed time
     gettimeofday(&end, 0);
