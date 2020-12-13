@@ -1,5 +1,13 @@
+/**
+ * TE355 - Sistemas Operacionais Embarcados
+ * Activity: Resolution of the factorial calculation using multiple process
+ * Author: Diego R. Garzaro
+ * GRR20172364
+ * Date: 12/12/2020 
+ * 
+ * */
+
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/wait.h>
@@ -75,6 +83,7 @@ long double run_process(int num, int num_process){
     if(num_process == 0){
         final_result = fatorial(1, num);
     } else{
+        // Organize the number of factorial for each children process
         if((num) % num_process != 0){
             divisao = ((num) / num_process) + 1;
             aux = num;
