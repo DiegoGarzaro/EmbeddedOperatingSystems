@@ -1,3 +1,12 @@
+/**
+ * TE355 - Sistemas Operacionais Embarcados
+ * Activity: Resolution of the factorial calculation using multiple threads
+ * Author: Diego R. Garzaro
+ * GRR20172364
+ * Date: 12/12/2020 
+ * 
+ * */
+
 #include <stdio.h>
 #include <pthread.h>
 #include <unistd.h>
