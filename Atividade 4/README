@@ -1,0 +1,19 @@
+README
+
+To compile the program use the line command below:
+
+Server:
+- gcc server.c aes.c -o server -lpthread -lcrypto
+
+Client:
+- gcc client.c aes.c -o client -lpthread -lcrypto
+
+------------------------------------------------------------
+
+First, run the server in a terminal. Then, open another terminal and run the client.
+
+Running the Server:
+- ./ server
+
+Running the Client:
+- ./client
