@@ -13,7 +13,7 @@ Client:
 First, run the server in a terminal. Then, open another terminal and run the client.
 
 Running the Server:
-- ./ server
+- ./server
 
 Running the Client:
 - ./client
